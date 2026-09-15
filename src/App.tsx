@@ -22,25 +22,25 @@ type MenuItem = {
 type CartItem = MenuItem & { quantity: number };
 
 const menuItems: MenuItem[] = [
-  { id: 'texan-bbq', name: 'Texan BBQ', description: 'Smoky pulled beef, red onion, sweet BBQ glaze.', price: 12.5, brand: "Pappa's Pizza", image: '/pappas-pizza.png', tag: 'Best seller' },
-  { id: 'pappas-special', name: "Papa's Special", description: 'Pepperoni, sausage, mushroom, green pepper, extra cheese.', price: 14, brand: "Pappa's Pizza", image: '/pappas-pizza.png', tag: 'Crowd favourite' },
-  { id: 'custom-topping', name: 'Build Your Own', description: 'One base, five toppings, unlimited opinions.', price: 13, brand: "Pappa's Pizza", image: '/pappas-pizza.png' },
-  { id: 'strawberry-shake', name: 'Strawberry Cloud', description: 'Cold strawberry cream, vanilla whip, berry drizzle.', price: 6.5, brand: 'Ice Cream Shake', image: '/ice-cream-shake.png', tag: 'New' },
-  { id: 'salted-caramel', name: 'Salted Caramel', description: 'House caramel, soft serve, a pinch of sea salt.', price: 6.5, brand: 'Ice Cream Shake', image: '/ice-cream-shake.png' },
-  { id: 'choc-crunch', name: 'Choc Crunch', description: 'Chocolate malt, cookie crumble, thick and cold.', price: 7, brand: 'Ice Cream Shake', image: '/ice-cream-shake.png' },
-  { id: 'roosters-bucket', name: "Rooster's Bucket", description: 'Six pieces, seasoned fries, slaw and two sauces.', price: 16.5, brand: "Rooster's", image: '/roosters-chicken.png', tag: 'Feeds 2' },
-  { id: 'hot-chicken', name: 'Hot Bird Box', description: 'Three crunchy pieces, fiery glaze, golden fries.', price: 10.5, brand: "Rooster's", image: '/roosters-chicken.png', tag: 'Spicy' },
-  { id: 'wings-fries', name: 'Wings & Fries', description: 'Eight sticky wings with our signature seasoning.', price: 11, brand: "Rooster's", image: '/roosters-chicken.png' },
+  { id: 'texan-bbq', name: 'Texan BBQ', description: 'Smoky pulled beef, red onion, sweet BBQ glaze.', price: 12.5, brand: "Pappa's Pizza", image: 'images/pappas-pizza.png', tag: 'Best seller' },
+  { id: 'pappas-special', name: "Papa's Special", description: 'Pepperoni, sausage, mushroom, green pepper, extra cheese.', price: 14, brand: "Pappa's Pizza", image: 'images/pappas-pizza.png', tag: 'Crowd favourite' },
+  { id: 'custom-topping', name: 'Build Your Own', description: 'One base, five toppings, unlimited opinions.', price: 13, brand: "Pappa's Pizza", image: 'images/pappas-pizza.png' },
+  { id: 'strawberry-shake', name: 'Strawberry Cloud', description: 'Cold strawberry cream, vanilla whip, berry drizzle.', price: 6.5, brand: 'Ice Cream Shake', image: 'images/ice-cream-shake.png', tag: 'New' },
+  { id: 'salted-caramel', name: 'Salted Caramel', description: 'House caramel, soft serve, a pinch of sea salt.', price: 6.5, brand: 'Ice Cream Shake', image: 'images/ice-cream-shake.png' },
+  { id: 'choc-crunch', name: 'Choc Crunch', description: 'Chocolate malt, cookie crumble, thick and cold.', price: 7, brand: 'Ice Cream Shake', image: 'images/ice-cream-shake.png' },
+  { id: 'roosters-bucket', name: "Rooster's Bucket", description: 'Six pieces, seasoned fries, slaw and two sauces.', price: 16.5, brand: "Rooster's", image: 'images/roosters-chicken.png', tag: 'Feeds 2' },
+  { id: 'hot-chicken', name: 'Hot Bird Box', description: 'Three crunchy pieces, fiery glaze, golden fries.', price: 10.5, brand: "Rooster's", image: 'images/roosters-chicken.png', tag: 'Spicy' },
+  { id: 'wings-fries', name: 'Wings & Fries', description: 'Eight sticky wings with our signature seasoning.', price: 11, brand: "Rooster's", image: 'images/roosters-chicken.png' },
 ];
 
 const galleryItems = [
-  { src: '/hero-food-hall.png', alt: 'A table of pizza, fried chicken and a milkshake inside the food hall.', title: 'One roof. Three cravings.' },
-  { src: '/pappas-pizza.png', alt: 'Freshly baked pizza with a blistered crust and melted cheese.', title: "Pappa's, straight from the oven." },
-  { src: '/ice-cream-shake.png', alt: 'Strawberry milkshake with whipped cream on a mint counter.', title: 'Something cold for the walk home.' },
-  { src: '/roosters-chicken.png', alt: 'Golden fried chicken pieces and seasoned fries in a basket.', title: "Rooster's brings the crunch." },
-  { src: '/flyer-pappas-pizza.png', alt: "Pappa's Pizza menu flyer showing pizzas, drinks and prices.", title: "Pappa's Pizza menu." },
-  { src: '/flyer-ice-cream-shake.png', alt: 'Ice Cream Shake chocolate ice cream shake promotional flyer.', title: 'Beat the heat with a chocolate shake.' },
-  { src: '/flyer-roosters.png', alt: "Roosters fried chicken and fries promotional flyer.", title: "Rooster's chicken and fries." },
+  { src: 'images/hero-food-hall.png', alt: 'A table of pizza, fried chicken and a milkshake inside the food hall.', title: 'One roof. Three cravings.' },
+  { src: 'images/pappas-pizza.png', alt: 'Freshly baked pizza with a blistered crust and melted cheese.', title: "Pappa's, straight from the oven." },
+  { src: 'images/ice-cream-shake.png', alt: 'Strawberry milkshake with whipped cream on a mint counter.', title: 'Something cold for the walk home.' },
+  { src: 'images/roosters-chicken.png', alt: 'Golden fried chicken pieces and seasoned fries in a basket.', title: "Rooster's brings the crunch." },
+  { src: 'images/flyer-pappas-pizza.png', alt: "Pappa's Pizza menu flyer showing pizzas, drinks and prices.", title: "Pappa's Pizza menu." },
+  { src: 'images/flyer-ice-cream-shake.png', alt: 'Ice Cream Shake chocolate ice cream shake promotional flyer.', title: 'Beat the heat with a chocolate shake.' },
+  { src: 'images/flyer-roosters.png', alt: "Roosters fried chicken and fries promotional flyer.", title: "Rooster's chicken and fries." },
 ];
 
 const navLinks = [
@@ -58,6 +58,10 @@ function money(amount: number) {
 
 function scrollToId(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function assetUrl(path: string) {
+  return `${import.meta.env.BASE_URL}${path}`;
 }
 
 function Logo({ inverse = false }: { inverse?: boolean }) {
@@ -186,7 +190,7 @@ function AppShell() {
 
       <main>
         <section id="home" className="relative flex min-h-[740px] items-end overflow-hidden bg-[#261912] pt-[74px] text-[#f5e8d0]">
-          <img src="/hero-food-hall.png" alt="Pizza, fried chicken and a milkshake arranged on a lively food hall counter." className="absolute inset-0 h-full w-full object-cover opacity-60" />
+          <img src={assetUrl('images/hero-food-hall.png')} alt="Pizza, fried chicken and a milkshake arranged on a lively food hall counter." className="absolute inset-0 h-full w-full object-cover opacity-60" />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(38,25,18,.98)_0%,rgba(38,25,18,.78)_38%,rgba(38,25,18,.08)_100%)]" />
           <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(38,25,18,.9)_0%,transparent_50%)]" />
           <div className="container-shell relative z-10 grid w-full items-end gap-12 pb-16 pt-28 md:grid-cols-[1.1fr_.9fr] md:pb-24">
@@ -206,7 +210,7 @@ function AppShell() {
               <div className="reveal reveal-delay-3 w-60 rotate-3 border border-[#f5e8d0]/35 bg-[#261912]/70 p-5 backdrop-blur-sm">
                 <div className="mb-12 flex items-center justify-between"><span className="font-mono text-[.58rem] uppercase tracking-[.18em] text-[#dbcdb8]">Tonight's forecast</span><Sparkles size={17} className="text-[#e8b94f]" /></div>
                 <p className="font-display text-4xl leading-none">Very<br /><span className="text-[#e8b94f]">tasty.</span></p>
-                <div className="mt-8 flex items-end justify-between border-t border-[#f5e8d0]/20 pt-3"><span className="font-mono text-[.58rem] uppercase text-[#dbcdb8]">Doors open</span><span className="font-mono text-xs text-[#e8b94f]">10:00 — 22:00</span></div>
+                <div className="mt-8 flex items-end justify-between border-t border-[#f5e8d0]/20 pt-3"><span className="font-mono text-[.58rem] uppercase text-[#dbcdb8]">Doors open</span><span className="font-mono text-xs text-[#e8b94f]">10:00 â€” 22:00</span></div>
               </div>
             </div>
           </div>
@@ -214,7 +218,7 @@ function AppShell() {
 
         <div className="overflow-hidden border-b border-[#3b2920]/15 bg-[#e8b94f] py-3 text-[#261912]">
           <div className="marquee-track flex w-max items-center gap-8 whitespace-nowrap">
-            {[...Array(2)].flatMap((_, index) => ['PIZZA WITH A POINT OF VIEW', 'COLD SHAKES • BIG CRAVINGS', 'CRUNCH WORTH TALKING ABOUT', 'WELCOME TO THE MALL'].map((text) => <span key={`${index}-${text}`} className="flex items-center gap-8 font-mono text-[.68rem] font-medium tracking-[.14em]"><span className="text-[#d6452f]">•</span>{text}</span>))}
+            {[...Array(2)].flatMap((_, index) => ['PIZZA WITH A POINT OF VIEW', 'COLD SHAKES â€¢ BIG CRAVINGS', 'CRUNCH WORTH TALKING ABOUT', 'WELCOME TO THE MALL'].map((text) => <span key={`${index}-${text}`} className="flex items-center gap-8 font-mono text-[.68rem] font-medium tracking-[.14em]"><span className="text-[#d6452f]">â€¢</span>{text}</span>))}
           </div>
         </div>
 
@@ -229,16 +233,16 @@ function AppShell() {
             </div>
             <div className="grid gap-5 lg:grid-cols-3">
               {[
-                { name: "Pappa's Pizza", eyebrow: '01 / The original slice', copy: 'Hand-stretched, oven-hot and built with a little swagger.', image: '/flyer-pappas-pizza.png', logo: '/logo-pappas-pizza.png', imageClass: 'bg-[#3d0909]', color: '#a92f22', items: ['Texan BBQ', "Papa's Special", 'Build Your Own'] },
-                { name: 'Ice Cream Shake', eyebrow: '02 / The cool one', copy: 'Thick shakes, soft serve and enough topping to make a mess.', image: '/flyer-ice-cream-shake.png', logo: '/logo-ice-cream-shake.png', imageClass: 'bg-[#f5ead7]', color: '#2e7568', items: ['Strawberry Cloud', 'Salted Caramel', 'Choc Crunch'] },
-                { name: "Rooster's", eyebrow: '03 / The crunch', copy: 'Crispy chicken, hot seasoning and fries that disappear first.', image: '/flyer-roosters.png', logo: '/logo-roosters.png', imageClass: 'bg-white', color: '#db8a26', items: ["Rooster's Bucket", 'Hot Bird Box', 'Wings & Fries'] },
+                { name: "Pappa's Pizza", eyebrow: '01 / The original slice', copy: 'Hand-stretched, oven-hot and built with a little swagger.', image: 'images/flyer-pappas-pizza.png', logo: 'images/logo-pappas-pizza.png', imageClass: 'bg-[#3d0909]', color: '#a92f22', items: ['Texan BBQ', "Papa's Special", 'Build Your Own'] },
+                { name: 'Ice Cream Shake', eyebrow: '02 / The cool one', copy: 'Thick shakes, soft serve and enough topping to make a mess.', image: 'images/flyer-ice-cream-shake.png', logo: 'images/logo-ice-cream-shake.png', imageClass: 'bg-[#f5ead7]', color: '#2e7568', items: ['Strawberry Cloud', 'Salted Caramel', 'Choc Crunch'] },
+                { name: "Rooster's", eyebrow: '03 / The crunch', copy: 'Crispy chicken, hot seasoning and fries that disappear first.', image: 'images/flyer-roosters.png', logo: 'images/logo-roosters.png', imageClass: 'bg-white', color: '#db8a26', items: ["Rooster's Bucket", 'Hot Bird Box', 'Wings & Fries'] },
               ].map((brand, index) => (
                 <article key={brand.name} className="group overflow-hidden border border-[#3b2920]/15 bg-[#f9f3e8] shadow-[0_12px_30px_rgba(67,42,24,.06)]">
                   <div className={`relative h-72 overflow-hidden ${brand.imageClass}`}>
-                    <img src={brand.image} alt={`${brand.name} promotional flyer`} className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-[1.03]" />
+                    <img src={assetUrl(brand.image)} alt={`${brand.name} promotional flyer`} className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-[1.03]" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#261912]/65 via-transparent to-transparent" />
                     <div className="absolute right-4 top-4 grid h-20 w-20 place-items-center overflow-hidden rounded-full border border-white/50 bg-[#261912]/70 p-2 backdrop-blur-sm">
-                      <img src={brand.logo} alt={`${brand.name} logo`} className="max-h-full max-w-full object-contain" />
+                      <img src={assetUrl(brand.logo)} alt={`${brand.name} logo`} className="max-h-full max-w-full object-contain" />
                     </div>
                     <span className="absolute left-5 top-5 rounded-full px-3 py-1.5 font-mono text-[.58rem] uppercase tracking-[.12em] text-[#261912]" style={{ backgroundColor: brand.color }}>{brand.eyebrow}</span>
                     <span className="absolute bottom-5 left-5 font-display text-3xl font-bold text-[#fff4e6]">{brand.name}</span>
@@ -270,7 +274,7 @@ function AppShell() {
             <div className="grid gap-4 md:grid-cols-3">
               {menuItems.map((item) => (
                 <article key={item.id} className="group flex gap-4 border border-[#f5e8d0]/15 bg-[#32221a] p-3 transition-colors hover:border-[#e8b94f]/70" data-testid={`card-product-${item.id}`}>
-                  <img src={item.image} alt={item.name} className="h-24 w-24 shrink-0 object-cover" />
+                  <img src={assetUrl(item.image)} alt={item.name} className="h-24 w-24 shrink-0 object-cover" />
                   <div className="flex min-w-0 flex-1 flex-col justify-between py-1">
                     <div><div className="flex items-start justify-between gap-2"><h3 className="font-display text-xl leading-none">{item.name}</h3>{item.tag && <span className="font-mono text-[.55rem] uppercase tracking-wider text-[#e8b94f]">{item.tag}</span>}</div><p className="mt-2 line-clamp-2 text-xs leading-5 text-[#bcae9b]">{item.description}</p></div>
                     <div className="mt-3 flex items-center justify-between"><span className="font-mono text-sm text-[#e8b94f]">{money(item.price)}</span><button onClick={() => addToCart(item)} className="flex items-center gap-1.5 rounded-full bg-[#d6452f] px-3 py-1.5 font-mono text-[.6rem] uppercase tracking-[.08em] text-white transition-transform hover:-translate-y-0.5" data-testid={`button-order-${item.id}`}>Add <Plus size={13} /></button></div>
@@ -291,7 +295,7 @@ function AppShell() {
             <div className="mt-12 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-5">
               {galleryItems.map((item, index) => (
                 <button key={item.src} onClick={() => setLightbox(item)} className={`group relative overflow-hidden text-left ${index === 0 ? 'col-span-2 row-span-2 aspect-square' : 'aspect-square'}`} data-testid={`button-gallery-${index}`}>
-                  <img src={item.src} alt={item.alt} loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                  <img src={assetUrl(item.src)} alt={item.alt} loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                   <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#1d423d]/85 to-transparent p-4 pt-12 font-display text-lg text-[#f5e8d0] opacity-0 transition-opacity group-hover:opacity-100">{item.title}</span>
                 </button>
               ))}
@@ -302,7 +306,7 @@ function AppShell() {
         <section id="about" className="scroll-mt-20 bg-[#d6452f] py-20 text-[#fff4e6] md:py-28">
           <div className="container-shell grid items-center gap-12 md:grid-cols-[.8fr_1.2fr]">
             <div><p className="section-kicker text-[#f5d77b]">A little about us</p><h2 className="mt-5 font-display text-5xl font-bold leading-[.86] tracking-[-.06em] md:text-7xl">Come as you are.<br /><span className="text-[#f5d77b]">Leave happier.</span></h2></div>
-            <div className="grid gap-7 md:grid-cols-2"><div><p className="text-lg leading-8 text-[#fff4e6]/90">Habib's was built for the in-between moments: the after-school hunger, the Friday catch-up, the “let's just grab something” that becomes the whole evening.</p><p className="mt-5 text-sm leading-6 text-[#fff4e6]/75">We put three very different kitchens under one roof so your people can meet in the middle. Proudly local, generously portioned, always worth the detour.</p></div><div className="border-l border-[#fff4e6]/30 pl-6"><div className="flex items-start gap-3"><Clock3 size={18} className="mt-1 text-[#f5d77b]" /><div><p className="font-display text-2xl">10:00 — 22:00</p><p className="mt-1 font-mono text-[.6rem] uppercase tracking-wider text-[#fff4e6]/70">Every day, including Sundays</p></div></div><div className="mt-8 flex items-start gap-3"><MapPin size={18} className="mt-1 text-[#f5d77b]" /><div><p className="font-display text-2xl">Samora Machel Ave</p><p className="mt-1 font-mono text-[.6rem] uppercase tracking-wider text-[#fff4e6]/70">Harare, Zimbabwe</p></div></div></div></div>
+            <div className="grid gap-7 md:grid-cols-2"><div><p className="text-lg leading-8 text-[#fff4e6]/90">Habib's was built for the in-between moments: the after-school hunger, the Friday catch-up, the â€œlet's just grab somethingâ€ that becomes the whole evening.</p><p className="mt-5 text-sm leading-6 text-[#fff4e6]/75">We put three very different kitchens under one roof so your people can meet in the middle. Proudly local, generously portioned, always worth the detour.</p></div><div className="border-l border-[#fff4e6]/30 pl-6"><div className="flex items-start gap-3"><Clock3 size={18} className="mt-1 text-[#f5d77b]" /><div><p className="font-display text-2xl">10:00 â€” 22:00</p><p className="mt-1 font-mono text-[.6rem] uppercase tracking-wider text-[#fff4e6]/70">Every day, including Sundays</p></div></div><div className="mt-8 flex items-start gap-3"><MapPin size={18} className="mt-1 text-[#f5d77b]" /><div><p className="font-display text-2xl">Samora Machel Ave</p><p className="mt-1 font-mono text-[.6rem] uppercase tracking-wider text-[#fff4e6]/70">Harare, Zimbabwe</p></div></div></div></div>
           </div>
         </section>
 
@@ -321,15 +325,15 @@ function AppShell() {
             <div><p className="section-kicker text-[#e8b94f]">Explore</p><div className="mt-5 grid grid-cols-2 gap-y-3"><a href="#menu" className="text-sm text-[#bcae9b] hover:text-[#e8b94f]" data-testid="link-footer-menu">Menu</a><a href="#gallery" className="text-sm text-[#bcae9b] hover:text-[#e8b94f]" data-testid="link-footer-gallery">Gallery</a><a href="#about" className="text-sm text-[#bcae9b] hover:text-[#e8b94f]" data-testid="link-footer-about">About us</a><a href="#contact" className="text-sm text-[#bcae9b] hover:text-[#e8b94f]" data-testid="link-footer-contact">Contact</a></div></div>
             <div><p className="section-kicker text-[#e8b94f]">The good stuff, occasionally</p>{subscribed ? <div className="mt-5 flex items-center gap-2 text-sm text-[#bcae9b]"><Check size={16} className="text-[#e8b94f]" /> You're on the list.</div> : <form onSubmit={submitNewsletter} className="mt-4 flex border-b border-[#f5e8d0]/35 pb-2"><label htmlFor="newsletter" className="sr-only">Email for newsletter</label><input id="newsletter" required type="email" className="min-w-0 flex-1 bg-transparent text-sm text-[#f5e8d0] outline-none placeholder:text-[#bcae9b]" placeholder="Your email address" data-testid="input-newsletter" /><button type="submit" aria-label="Subscribe to newsletter" className="text-[#e8b94f]" data-testid="button-newsletter"><ArrowRight size={18} /></button></form>}</div>
           </div>
-          <div className="flex flex-col justify-between gap-3 pt-6 font-mono text-[.58rem] uppercase tracking-[.12em] text-[#8f7f6e] sm:flex-row"><span>© 2025 Habib's Food Mall · Website by Shepherd Ndiraya</span><span>Made for hungry Harare</span></div>
+          <div className="flex flex-col justify-between gap-3 pt-6 font-mono text-[.58rem] uppercase tracking-[.12em] text-[#8f7f6e] sm:flex-row"><span>Â© 2025 Habib's Food Mall Â· Website by Shepherd Ndiraya</span><span>Made for hungry Harare</span></div>
         </div>
       </footer>
 
       {toast && <div role="status" className="fixed bottom-5 left-1/2 z-[70] flex -translate-x-1/2 items-center gap-2 rounded-full bg-[#261912] px-5 py-3 text-sm text-[#f5e8d0] shadow-2xl" data-testid="status-add-to-cart"><Check size={15} className="text-[#e8b94f]" /> {toast}</div>}
 
-      {cartOpen && <div className="fixed inset-0 z-50"><button onClick={() => setCartOpen(false)} className="absolute inset-0 cursor-default bg-[#261912]/65" aria-label="Close cart" data-testid="button-close-cart-overlay" /><aside className="absolute right-0 top-0 flex h-full w-full max-w-md flex-col bg-[#f3ead9] text-[#261912] shadow-2xl"><div className="flex items-center justify-between border-b border-[#3b2920]/15 p-6"><div><p className="section-kicker text-[#a92f22]">Your order</p><h2 className="mt-2 font-display text-3xl">Ready when you are.</h2></div><button onClick={() => setCartOpen(false)} className="grid h-9 w-9 place-items-center rounded-full border border-[#3b2920]/20" aria-label="Close cart" data-testid="button-close-cart"><X size={17} /></button></div><div className="flex-1 overflow-y-auto p-6">{cart.length === 0 ? <div className="flex h-full flex-col items-center justify-center text-center"><span className="grid h-16 w-16 place-items-center rounded-full bg-[#e8b94f]"><ShoppingBag size={24} /></span><h3 className="mt-5 font-display text-2xl">Nothing in the bag yet.</h3><p className="mt-2 max-w-xs text-sm leading-6 text-[#684d3b]">The hard part is choosing. Start with something hot, cold, or crunchy.</p><button onClick={() => { setCartOpen(false); scrollToId('order'); }} className="mt-6 rounded-full bg-[#a92f22] px-5 py-3 font-mono text-[.65rem] uppercase tracking-[.1em] text-white" data-testid="button-empty-start-order">Start an order</button></div> : <div className="space-y-4">{cart.map((item) => <div key={item.id} className="flex gap-3 border-b border-[#3b2920]/12 pb-4" data-testid={`row-cart-${item.id}`}><img src={item.image} alt="" className="h-16 w-16 object-cover" /><div className="min-w-0 flex-1"><div className="flex justify-between gap-2"><h3 className="font-display text-lg leading-none">{item.name}</h3><span className="font-mono text-xs">{money(item.price * item.quantity)}</span></div><p className="mt-1 text-xs text-[#684d3b]">{item.brand}</p><div className="mt-3 flex items-center gap-3"><button onClick={() => updateQuantity(item.id, -1)} className="grid h-6 w-6 place-items-center rounded-full border border-[#3b2920]/25" aria-label={`Remove one ${item.name}`} data-testid={`button-decrease-${item.id}`}><Minus size={12} /></button><span className="font-mono text-xs" data-testid={`text-quantity-${item.id}`}>{item.quantity}</span><button onClick={() => updateQuantity(item.id, 1)} className="grid h-6 w-6 place-items-center rounded-full border border-[#3b2920]/25" aria-label={`Add one ${item.name}`} data-testid={`button-increase-${item.id}`}><Plus size={12} /></button></div></div></div>)}</div>}</div>{cart.length > 0 && <div className="border-t border-[#3b2920]/15 p-6"><div className="flex items-center justify-between"><span className="font-mono text-xs uppercase tracking-wider text-[#684d3b]">Subtotal</span><span className="font-display text-3xl">{money(cartTotal)}</span></div><p className="mt-2 text-xs text-[#684d3b]">Delivery fees are confirmed at checkout.</p>{orderComplete ? <div className="mt-5 flex items-center gap-2 bg-[#d9eee7] p-4 text-sm text-[#1d423d]" data-testid="status-order-complete"><Check size={17} /> Order noted. We'll see you soon.</div> : <button onClick={() => setOrderComplete(true)} className="mt-5 w-full rounded-full bg-[#d6452f] py-4 font-mono text-[.68rem] uppercase tracking-[.12em] text-white" data-testid="button-checkout">Continue to checkout</button>}</div>}</aside></div>}
+      {cartOpen && <div className="fixed inset-0 z-50"><button onClick={() => setCartOpen(false)} className="absolute inset-0 cursor-default bg-[#261912]/65" aria-label="Close cart" data-testid="button-close-cart-overlay" /><aside className="absolute right-0 top-0 flex h-full w-full max-w-md flex-col bg-[#f3ead9] text-[#261912] shadow-2xl"><div className="flex items-center justify-between border-b border-[#3b2920]/15 p-6"><div><p className="section-kicker text-[#a92f22]">Your order</p><h2 className="mt-2 font-display text-3xl">Ready when you are.</h2></div><button onClick={() => setCartOpen(false)} className="grid h-9 w-9 place-items-center rounded-full border border-[#3b2920]/20" aria-label="Close cart" data-testid="button-close-cart"><X size={17} /></button></div><div className="flex-1 overflow-y-auto p-6">{cart.length === 0 ? <div className="flex h-full flex-col items-center justify-center text-center"><span className="grid h-16 w-16 place-items-center rounded-full bg-[#e8b94f]"><ShoppingBag size={24} /></span><h3 className="mt-5 font-display text-2xl">Nothing in the bag yet.</h3><p className="mt-2 max-w-xs text-sm leading-6 text-[#684d3b]">The hard part is choosing. Start with something hot, cold, or crunchy.</p><button onClick={() => { setCartOpen(false); scrollToId('order'); }} className="mt-6 rounded-full bg-[#a92f22] px-5 py-3 font-mono text-[.65rem] uppercase tracking-[.1em] text-white" data-testid="button-empty-start-order">Start an order</button></div> : <div className="space-y-4">{cart.map((item) => <div key={item.id} className="flex gap-3 border-b border-[#3b2920]/12 pb-4" data-testid={`row-cart-${item.id}`}><img src={assetUrl(item.image)} alt="" className="h-16 w-16 object-cover" /><div className="min-w-0 flex-1"><div className="flex justify-between gap-2"><h3 className="font-display text-lg leading-none">{item.name}</h3><span className="font-mono text-xs">{money(item.price * item.quantity)}</span></div><p className="mt-1 text-xs text-[#684d3b]">{item.brand}</p><div className="mt-3 flex items-center gap-3"><button onClick={() => updateQuantity(item.id, -1)} className="grid h-6 w-6 place-items-center rounded-full border border-[#3b2920]/25" aria-label={`Remove one ${item.name}`} data-testid={`button-decrease-${item.id}`}><Minus size={12} /></button><span className="font-mono text-xs" data-testid={`text-quantity-${item.id}`}>{item.quantity}</span><button onClick={() => updateQuantity(item.id, 1)} className="grid h-6 w-6 place-items-center rounded-full border border-[#3b2920]/25" aria-label={`Add one ${item.name}`} data-testid={`button-increase-${item.id}`}><Plus size={12} /></button></div></div></div>)}</div>}</div>{cart.length > 0 && <div className="border-t border-[#3b2920]/15 p-6"><div className="flex items-center justify-between"><span className="font-mono text-xs uppercase tracking-wider text-[#684d3b]">Subtotal</span><span className="font-display text-3xl">{money(cartTotal)}</span></div><p className="mt-2 text-xs text-[#684d3b]">Delivery fees are confirmed at checkout.</p>{orderComplete ? <div className="mt-5 flex items-center gap-2 bg-[#d9eee7] p-4 text-sm text-[#1d423d]" data-testid="status-order-complete"><Check size={17} /> Order noted. We'll see you soon.</div> : <button onClick={() => setOrderComplete(true)} className="mt-5 w-full rounded-full bg-[#d6452f] py-4 font-mono text-[.68rem] uppercase tracking-[.12em] text-white" data-testid="button-checkout">Continue to checkout</button>}</div>}</aside></div>}
 
-      {lightbox && <div className="fixed inset-0 z-[60] flex items-center justify-center bg-[#261912]/90 p-4" role="dialog" aria-modal="true" aria-label={lightbox.title} onClick={() => setLightbox(null)}><button onClick={() => setLightbox(null)} className="absolute right-5 top-5 grid h-10 w-10 place-items-center rounded-full border border-[#f5e8d0]/35 text-[#f5e8d0]" aria-label="Close gallery image" data-testid="button-close-lightbox"><X size={18} /></button><div className="max-h-[90vh] max-w-4xl" onClick={(event) => event.stopPropagation()}><img src={lightbox.src} alt={lightbox.alt} className="max-h-[78vh] w-auto object-contain" /><p className="mt-4 font-display text-2xl text-[#f5e8d0]">{lightbox.title}</p></div></div>}
+      {lightbox && <div className="fixed inset-0 z-[60] flex items-center justify-center bg-[#261912]/90 p-4" role="dialog" aria-modal="true" aria-label={lightbox.title} onClick={() => setLightbox(null)}><button onClick={() => setLightbox(null)} className="absolute right-5 top-5 grid h-10 w-10 place-items-center rounded-full border border-[#f5e8d0]/35 text-[#f5e8d0]" aria-label="Close gallery image" data-testid="button-close-lightbox"><X size={18} /></button><div className="max-h-[90vh] max-w-4xl" onClick={(event) => event.stopPropagation()}><img src={assetUrl(lightbox.src)} alt={lightbox.alt} className="max-h-[78vh] w-auto object-contain" /><p className="mt-4 font-display text-2xl text-[#f5e8d0]">{lightbox.title}</p></div></div>}
     </div>
   );
 }
