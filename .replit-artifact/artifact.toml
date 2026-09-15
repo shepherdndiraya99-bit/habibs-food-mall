@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Habib's Food Mall"
+description = "A vibrant, mobile-first food mall website for Habib's Food Mall, showcasing Pappa's Pizza, Ice Cream Shake, and Rooster's with menu browsing, ordering flows, gallery moments, and contact details."
+version = "1.0.0"
+id = "artifacts/habibs-food-mall"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23157
+
+[services.development]
+run = "pnpm --filter @workspace/habibs-food-mall run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/habibs-food-mall", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/habibs-food-mall/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23157"
+BASE_PATH = "/"
